@@ -1,0 +1,141 @@
+.header {
+    background-color: #f17831;
+    border-radius: 10px;
+    color:rgb(6, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+
+    
+
+}
+
+.logo {
+    width: 150px;
+    font-size: 28px;
+    color: white;
+}
+.nav-items > ul {
+    padding-top: 15px;
+    padding-right: 15px;
+    display:flex;
+    font-size: 24px;
+    list-style-type: none;
+}
+.nav-items > ul> li {
+    padding: 20px;
+}   
+.nav-items {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > li {
+    margin-right: 20px;
+}
+
+.main-content {
+    margin: 20px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.res-card {
+    width: 300px;
+    height: 600px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border-color: #3498db;
+    transform: scale(1.05);
+}
+
+.search {
+    padding: 20px;
+    display: flex;
+}
+
+
+
+.res-logo {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.filter-btn {
+    margin:8px;
+    font-size: 25px;
+    background-color: #3498db;
+    color: white;
+    padding: 5px 15px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #2980b9;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.shimmer-card {
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.shimmer-card:hover {
+    cursor: not-allowed;
+}
+
+.search-box {
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+    margin-right: 20px;
+}
+
+.search-btn {
+    width: 100px;
+    height: 35px;
+    font-size: 22px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #2980b9;
+}
+

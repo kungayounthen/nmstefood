@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile C:\Users\HP\Desktop\html\react\nmstefood\.htpassword
+Require valid-user
